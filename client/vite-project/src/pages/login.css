@@ -1,0 +1,103 @@
+/* OUTER WHITE SPACE */
+.page {
+  background: #f2f2f2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CENTER BOX */
+.login-container {
+  width: 350px;
+  height: 90vh;
+  background: linear-gradient(to bottom, #b8960c, #0f1c2e);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* CARD CONTENT */
+.login-card {
+  width: 100%;
+}
+
+/* LOGO */
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 120px;
+}
+
+/* INPUTS */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  color: white;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  background: #e6e2a3;
+}
+
+/* PASSWORD */
+.password-box {
+  display: flex;
+}
+
+.password-box input {
+  flex: 1;
+}
+
+.eye {
+  background: #ddd;
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* REMEMBER */
+.remember {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+/* BUTTON */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: #3fa9d6;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+}
+
+/* FORGOT */
+.forgot {
+  text-align: center;
+  color: #00ff88;
+  margin-top: 10px;
+}
+
+/* FOOTER */
+.footer {
+  background: red;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+}

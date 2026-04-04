@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eef2f7;
+}
+:root {
+  --sidebar-blue: #1f4e79;
+  --sidebar-text: #c7d3e0;
+  --gold-header: #b08d45;
+  --light-bg: #eef1f5;
+  --card-border: #dfe5ec;
+  --text-dark: #2b2b2b;
+  --text-light: #6b7785;
+  --green-btn: #27b3a6;
+  --red-btn: #e55353;
+}

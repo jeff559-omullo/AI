@@ -1,0 +1,40 @@
+.navbar {
+    height: 58px;
+    background: var(--gold-header);
+    margin-left: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18px;
+  }
+  
+  .search input {
+    width: 230px;
+    height: 34px;
+    border-radius: 18px;
+    border: none;
+    padding: 0 14px;
+    font-size: 13px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 13px;
+  }
+  
+  .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .navbar {
+    height: 52px;   /* exact visual match */
+    background: #b38b3c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
